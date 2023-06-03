@@ -1,0 +1,21 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "shopping list built with the mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js"
+  },
+  "author": "madhav kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.1.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
